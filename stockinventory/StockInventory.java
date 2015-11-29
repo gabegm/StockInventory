@@ -48,9 +48,10 @@ public class StockInventory {
                     stockInventory.listAllItems();
                     break;
                 case 3:
-                    stockInventory.searchForItemById();
+                    System.out.println(stockInventory.searchForItemById());
                     break;
                 case 4:
+                    stockInventory.sellItem();
                     break;
                 case 5:
                     stockInventory.deleteItem();
